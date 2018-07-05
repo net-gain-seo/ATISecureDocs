@@ -1,0 +1,172 @@
+body.sticky-header{
+  margin-top: 220px;
+}
+.site-header {
+    box-shadow: 0 3px 20px rgba(black,0.2);
+    z-index: 99999;
+    position: relative;
+}
+.flex-header {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 auto;
+    .logo {
+        flex: 0;
+        margin-bottom: 1px;
+        img {
+          max-width: 330px;
+          padding: 20px 0px;
+        }
+    }
+    .stickylogo {
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+    }
+    .header-block {
+        flex: 1;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-end;
+        .title {
+            text-align: center;
+            padding: 0 60px 3px 16px; // adjust bottom alignment with the phone number
+        }
+        .phone {
+            a {
+              font-weight: bold;
+              font-size: 3rem;
+              font-family: $fontBarlow;
+              color: $primaryColor;
+            }
+        }
+        .inner-block {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-end;
+            justify-content: flex-end;
+            width: 100%;
+            margin-bottom: 2.5rem;
+        }
+        .contact-block {
+            // display: flex;
+            // flex-flow: column wrap;
+            text-align: right;
+        }
+    }
+    .header-nav{
+      width: 100%;
+      .container{
+        width: 100%;
+      }
+    }
+
+    .mobile-icons{
+      display: none;
+    }
+}
+.stickylogo img {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.sticky-header {
+    .site-header {
+        position: fixed;
+        z-index: 99999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 110px;
+        max-height: 105px;
+        background: $lightGray;
+        box-shadow: 0 3px 20px rgba(black,0.2);
+        // transition: max-height 0.15s ease-in-out;
+    }
+    .flex-header {
+        .logo {
+            display: none;
+        }
+        .header-block {
+            .inner-block {
+                display: none;
+            }
+        }
+    }
+    .header-nav {
+        height: 100%; // IE needs this
+    }
+    .get-quote{
+        padding: 0px 25px;
+    }
+    .stickylogo {
+        display: block;
+        position: static;
+        left: auto;
+        opacity: 1;
+        img{
+          width: 95px;
+          position: absolute;
+          top: 5px;
+          height: auto;
+          overflow: visible;
+        }
+    }
+    .main-nav>ul>li {
+        line-height: 60px;
+    }
+    .get-quote {
+        line-height: 6rem;
+        padding: 4rem 2rem 0.5rem 2rem;
+    }
+    .main-nav>ul>li>a {
+        padding: 4rem 1rem 0.5rem 1rem;
+        line-height: 6rem;
+    }
+}
+
+.mast {
+    position: relative;
+    overflow: hidden;
+    img{
+      width: 100%;
+    }
+    .mast-overlay {
+      position: absolute;
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      color: #fff;
+      top: 50%;
+      right: -15%;
+      left: -15%;
+      font-family: $fontBarlow;
+    }
+    h1 {
+        font-size: 6.5rem;
+        margin-bottom: 1rem;
+        color: #fff;
+        font-weight: 600;
+    }
+    h2,
+    p {
+        margin-bottom: 1.5rem;
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: $fontBarlow;
+        color: #fff;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+.product-mast {
+    .mast-overlay {
+        top: auto;
+        bottom: 15%;
+        transform: translate(0, 0);
+    }
+}

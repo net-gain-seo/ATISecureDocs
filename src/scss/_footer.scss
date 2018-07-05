@@ -1,0 +1,105 @@
+footer{
+  padding-top: 50px;
+  padding-bottom: 25px;
+  .logo{
+    float: left;
+    margin-bottom: 25px;
+    display: block;
+    clear: both;
+    img{
+      margin-right: 4rem;
+    }
+  }
+  .phone{
+    clear: both;
+    display: block;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: $fontBarlow;
+    color: white;
+    text-align: right;
+    margin-bottom: 6rem;
+    span{
+      margin: 0 1rem;
+      font-size: 3rem;
+      font-weight: normal;
+    }
+    a{
+      color: $secondaryColor;
+      font-size: 2.5rem;
+      font-family: $fontBarlow;
+    }
+  }
+  .social{
+    margin-bottom: 4rem;
+    a:hover{
+      opacity: 0.8;
+    }
+    img{
+      margin-left: 15px;
+    }
+  }
+}
+.location{
+  float: right;
+  display: inline-block;
+  margin-left: 6rem;
+  text-align: right;
+  font-family: $fontRoboto;
+  a{
+    color: $secondaryColor;
+  }
+}
+.subfooter {
+    display: flex;
+    flex: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 25px 0;
+    text-align: center;
+    .phone {
+        margin-bottom: 1.5rem;
+        font-size: 1.5625rem; // 25px
+    }
+}
+// FOOTER
+.site-footer {
+    background-color: $primaryColor;
+    color: #fff;
+
+    .copyright {
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 300;
+        font-family: $fontRoboto;
+    }
+
+    .netgain {
+        font-family: Arial, sans-serif;
+        font-size: 1.6rem;
+    }
+}
+
+.flex-footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    padding-top: 1.5rem;
+    .f-item {
+        flex: 1 0 50%;
+        padding-bottom: 1.5rem;
+    }
+}
+.netgain {
+    text-align: right;
+}
+.footer-contact-container {
+    text-align: center;
+    background-color: $darkGray;
+    color: #fff;
+    padding: 60px 0px;
+    h3{
+      font-size: 3rem;
+    }
+
+}
