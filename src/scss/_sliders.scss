@@ -147,6 +147,10 @@
     border-radius: 20px;
     margin-left: 5px;
     background-color: $primaryColor;
+    margin-bottom: 0.5rem!important;
+    :last-child{
+      margin-bottom: 0.5rem!important;
+    }
   }
   .slick-active{
     background-color: $secondaryColor;

@@ -21,12 +21,12 @@
           </div>
           <div class="location">
             3340-D Greens Rd Ste 425<br/>
-            Houston, TX 77032<br/>
+            <a href="http://209.126.119.193/~atidocs/service-areas/houston/">Houston</a>, TX 77032<br/>
             <a href="tel:12814165177">Call: 281-416-5177</a>
           </div>
           <div class="location">
             7305-B Burleson Road<br/>
-            Austin, TX 78744<br/>
+            <a href="http://209.126.119.193/~atidocs/service-areas/austin/">Austin</a>, TX 78744<br/>
             <a href="tel:15123893333">Call: 512-389-3333</a>
           </div>
         </div>
