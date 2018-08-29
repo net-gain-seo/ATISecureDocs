@@ -12,7 +12,7 @@
 
 <header class="container-fluid site-header">
     <div class="container flex-header">
-        <div class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="ATI Secure Docs Logo"></a></div>
+        <div class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="ATI Secure Docs logo"></a></div>
         <div class="stickylogo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-sticky.png" alt="ATI Secure Docs Condensed Logo"></a></div>
         <div class="header-block">
             <div class="inner-block">
