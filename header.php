@@ -25,7 +25,7 @@
 				"Mo-Fr 8:00-17:30",
 				"Sa-Su Closed"
 			],
-			"telephone": "877-314-5273",
+			"telephone": "877 314 5273",
 			"url": "https://austintask.com/",
 			"image" : "https://austintask.com/wp-content/themes/ati-child/img/logo.png"
 		},
@@ -41,7 +41,7 @@
 			"logo" : "https://austintask.com/wp-content/themes/ati-child/img/logo.png",
 			"contactPoint" : [{
 				"@type" : "ContactPoint",
-				"telephone" : "877-314-5273",
+				"telephone" : "+1-877-314-5273",
 				"contactType" : "Customer Service"
 			
 			}]

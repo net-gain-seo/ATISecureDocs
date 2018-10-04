@@ -4,15 +4,15 @@
     <div class="container flex-footer">
         <div class="f-item ">
           <div class="social">
-              <a href="https://www.facebook.com/ShreddingServices/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebookicon.png" width="45px" alt=""></a>
-              <a href="https://twitter.com/ATISecureDocs" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/twittericon.png" width="45px" alt=""></a>
-              <a href="https://plus.google.com/+ATISecureDocsAustin" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/googleicon.png" width="45px" alt=""></a>
-              <a href="https://www.youtube.com/user/ATISecureDocs" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/youtubeicon.png" width="45px" alt=""></a>
+              <a href="https://www.facebook.com/ShreddingServices/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebookicon.png" width="45px" alt="ATI Secure Facebook page"></a>
+              <a href="https://twitter.com/ATISecureDocs" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/twittericon.png" width="45px" alt="ATI Secure Twitter page"></a>
+              <a href="https://plus.google.com/+ATISecureDocsAustin" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/googleicon.png" width="45px" alt="ATI Secure Google+ page"></a>
+              <a href="https://www.youtube.com/user/ATISecureDocs" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/youtubeicon.png" width="45px" alt="ATI Secure YouTube page"></a>
           </div>
           <div class="logo">
-              <a href="http://www.naidonline.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/naid-footer.png" width="92px" alt=""></a>
-              <a href="https://tibh.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/TIBH_logo.png" width="160px" alt=""></a>
-              <a href="http://www.txsmartbuy.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/TexasSmart_Logo.png" width="100px" alt=""></a>
+              <a href="http://www.naidonline.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/naid-footer.png" width="92px" alt="NAID certified"></a>
+              <a href="https://tibh.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/TIBH_logo.png" width="160px" alt="tibh industries logo"></a>
+              <a href="http://www.txsmartbuy.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/TexasSmart_Logo.png" width="100px" alt="Texas smart buy logo"></a>
           </div>
         </div>
         <div class="f-item phone-assoc">
@@ -32,7 +32,7 @@
         </div>
         <div class="f-item copyright">Copyright &copy; <?php echo date("Y"); ?> ATI SecureDocs. All rights reserved.</div>
 
-        <div class="f-item netgain">Website Designed by <a href="http://www.netgainseo.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/netgain.png" alt=""></a></div>
+        <div class="f-item netgain">Website Designed by <a href="http://www.netgainseo.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/netgain.png" alt="NetGain Logo"></a></div>
     </div>
 </footer>
 <div class="modal fade" id="popForm" tabindex="-1" role="dialog">
