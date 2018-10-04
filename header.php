@@ -6,6 +6,47 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.png" />
     <?php wp_head(); ?>
+    <script type="application/ld+json">
+		[{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "ATI SECURE DOCS",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "7305-B Burleson Rd",
+				"addressLocality": "Austin",
+				"addressRegion": "TX",
+				"addressCountry": "US",
+				"postalCode": "78744"
+			},
+			"description": "ATI Secure Docs brings local complete & secure shredding services to greater central & southeast Texas. We make a difference to our clients.",
+			"legalName": "ATI SECURE DOCS",
+			"openingHours": [
+				"Mo-Fr 8:00-17:30",
+				"Sa-Su Closed"
+			],
+			"telephone": "877-314-5273",
+			"url": "https://austintask.com/",
+			"image" : "https://austintask.com/wp-content/themes/ati-child/img/logo.png"
+		},
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"url": "https://austintask.com/",
+			"sameAs" : [ 
+				"https://www.facebook.com/ShreddingServices/",
+				"https://twitter.com/ATISecureDocs",
+				"https://www.youtube.com/user/ATISecureDocs"
+			],
+			"logo" : "https://austintask.com/wp-content/themes/ati-child/img/logo.png",
+			"contactPoint" : [{
+				"@type" : "ContactPoint",
+				"telephone" : "877-314-5273",
+				"contactType" : "Customer Service"
+			
+			}]
+		}]
+	</script>
 </head>
 
 <body <?php body_class(); ?>>
