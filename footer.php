@@ -6,7 +6,7 @@
           <div class="social">
               <a href="https://www.facebook.com/ShreddingServices/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebookicon.png" width="45px" alt="ATI Secure Facebook page"></a>
               <a href="https://twitter.com/ATISecureDocs" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/twittericon.png" width="45px" alt="ATI Secure Twitter page"></a>
-              <a href="https://plus.google.com/+ATISecureDocsAustin" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/googleicon.png" width="45px" alt="ATI Secure Google+ page"></a>
+              <!--<a href="https://plus.google.com/+ATISecureDocsAustin" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/googleicon.png" width="45px" alt="ATI Secure Google+ page"></a>-->
               <a href="https://www.youtube.com/user/ATISecureDocs" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/youtubeicon.png" width="45px" alt="ATI Secure YouTube page"></a>
           </div>
           <div class="logo">
